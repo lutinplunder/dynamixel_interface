@@ -31,6 +31,12 @@ ports:
     group_write_enabled: true  # specify whether to use group comms for writing
     servos:
       # SERVO LIST FOR THIS PORT
+#      - id: 10                 # (ID set in servo eeprom, must be unique on this port)
+#        joint_name: Abdomen_joint    # (MUST BE UNIQUE ACROSS ALL PORTS)
+#        zero_pos: 2048         # 0 rad servo position (in raw encoder count)
+#        min_pos: 0             # minimum servo position (in raw encoder count)
+#        max_pos: 4095          # maximum servo position, Note when MIN > MAX ROTATION IS REVERSED
+
       - id: 11                 # (ID set in servo eeprom, must be unique on this port)
         joint_name: AR_coxa_joint    # (MUST BE UNIQUE ACROSS ALL PORTS)
         zero_pos: 2048         # 0 rad servo position (in raw encoder count)
