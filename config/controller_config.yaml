@@ -199,17 +199,17 @@ ports:
 #        min_pos: 0
 #        max_pos: 4095
 
-#      - id: 81
-#        joint_name: AL_coxa_joint
-#        zero_pos: 2048
-#        min_pos: 0
-#        max_pos: 4095
+      - id: 81
+        joint_name: AL_coxa_joint
+        zero_pos: 2048
+        min_pos: 0
+        max_pos: 4095
 
-#      - id: 82
-#        joint_name: AL_femur_joint
-#        zero_pos: 2048
-#        min_pos: 0
-#        max_pos: 4095
+      - id: 82
+        joint_name: AL_femur_joint
+        zero_pos: 2048
+        min_pos: 0
+        max_pos: 4095
 
 #      - id: 83
 #        joint_name: AL_tibia_joint
@@ -223,11 +223,11 @@ ports:
 #        min_pos: 0
 #        max_pos: 4095
 
-#      - id: 2
-#        joint_name: joint_2
-#        zero_pos: 2048
-#        min_pos: 0
-#        max_pos: 4095
+      - id: 10
+        joint_name: Abdomen_joint
+        zero_pos: 2048
+        min_pos: 0
+        max_pos: 4095
 #
 #      - id: 2
 #        joint_name: joint_2
