@@ -211,17 +211,17 @@ ports:
         min_pos: 0
         max_pos: 4095
 
-#      - id: 83
-#        joint_name: AL_tibia_joint
-#        zero_pos: 2048
-#        min_pos: 0
-#        max_pos: 4095
+      - id: 83
+        joint_name: AL_tibia_joint
+        zero_pos: 2048
+        min_pos: 0
+        max_pos: 4095
 
-#      - id: 84
-#        joint_name: AL_tarsus_joint
-#        zero_pos: 2048
-#        min_pos: 0
-#        max_pos: 4095
+      - id: 84
+        joint_name: AL_tarsus_joint
+        zero_pos: 2048
+        min_pos: 0
+        max_pos: 4095
 
       - id: 10
         joint_name: Abdomen_joint
